@@ -1,0 +1,43 @@
+
+body,
+html {
+	font-family: 'Montserrat', sans-serif;
+  width: 100%;  /*so that whatever we put fully occupies the screen*/
+  height: 100%;  /*same thing as above*/
+ 	padding-left:75px;  /*the writeups were aligning somehow to d left, so hd2use padding-left to push it a bit to the center.*/
+  background: url("C:/Users/user/Documents/HTML and CSS Practices/startup files/header.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	color: white;
+	font-weight: 20; /*didn't work wen I did 20px*/
+	font-size: 40px;
+}
+hr{
+	border-color: tomato;
+	border-width: 2px;  /*how thick or thin*/
+	max-width: 50px;  /*to shorten the hr length*/
+}
+.btn-xl{  /*this class(is our own o) given was just to make the button larger, but could still have done this with .btn class*/
+	padding: 10px;  /*to make the button large*/ 
+}
+.btn{   /*for the button itself*/
+	font-weight: 400;  /*ie the Find Out More*/
+	border-radius: 50px;
+}
+.btn-primary{	/*ie we're adding to the one bootstrap made;their own customized button*/
+	background-color: tomato;  /*ie instead of their default blue*/ 
+	border-color: tomato;
+}
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color:#ee4b08;
+	border-width: 4px; /*button will expand by 4px on hover*/ 
+}
+
+.buffer{   /*ie to move the hr and button section around, away from the h1*/
+	height:8.7rem;
+}
